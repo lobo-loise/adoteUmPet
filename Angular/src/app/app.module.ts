@@ -11,6 +11,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './pages/home/header/header.component';
+import { MainComponent } from './pages/home/main/main.component';
+import { ListaPetsAdocaoComponent } from './pages/home/main/lista-pets-adocao/lista-pets-adocao.component';
+import { BuscaPetsComponent } from './pages/home/main/busca-pets/busca-pets.component';
+import { CardPetComponent } from './pages/home/main/lista-pets-adocao/card-pet/card-pet.component';
 
 
 
@@ -20,7 +24,11 @@ import { HeaderComponent } from './pages/home/header/header.component';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    MainComponent,
+    ListaPetsAdocaoComponent,
+    BuscaPetsComponent,
+    CardPetComponent
   ],
   imports: [
     BrowserModule,

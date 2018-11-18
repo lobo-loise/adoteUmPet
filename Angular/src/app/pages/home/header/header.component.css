@@ -1,7 +1,7 @@
 .conteudo {
   background: linear-gradient(rgba(215, 85, 44, 0.5), rgba(215, 85, 44, 0.5)), url('../../../../assets/img/backgrounds/friends.jpg');
   background-size: cover;
-  height: 80vh;
+  height: 75vh;
   background-repeat: no-repeat;
   margin-top: 0;
 
@@ -22,7 +22,6 @@
 .btn-large {
   height: 10vh;
   margin-right: 0;
-  z-index: 2000;
   border-radius: 8px;
   background-color: #3e2723;
 }
