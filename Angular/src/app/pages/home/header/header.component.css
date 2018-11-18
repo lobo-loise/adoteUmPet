@@ -1,0 +1,41 @@
+.conteudo {
+  background: linear-gradient(rgba(215, 85, 44, 0.5), rgba(215, 85, 44, 0.5)), url('../../../../assets/img/backgrounds/friends.jpg');
+  background-size: cover;
+  height: 80vh;
+  background-repeat: no-repeat;
+  margin-top: 0;
+
+}
+
+.container {
+  padding-top: 30vh;
+  margin-top: 0;
+}
+
+.campo-especial {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #3e2723;
+  height: 10vh;
+}
+
+.btn-large {
+  height: 10vh;
+  margin-right: 0;
+  z-index: 2000;
+  border-radius: 8px;
+  background-color: #3e2723;
+}
+
+.btn-large:hover {
+  background-color: #6d4c41;
+  border: 2px solid #6d4c41;
+}
+
+@media only screen and (max-width:900px) {
+  .btn-large {
+    margin-top: 1vh;
+    height: 80%;
+    width: 100%;
+  }
+}

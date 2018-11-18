@@ -1,0 +1,16 @@
+nav {
+  height: 13vh;
+  line-height: 13vh;
+  background-color: #fafafa !important;
+}
+
+nav ul li a {
+  color: #3e2723;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.brand-logo img {
+  max-height: 12vh;
+  padding: 3%;
+}
