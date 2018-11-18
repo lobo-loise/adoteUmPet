@@ -1,0 +1,26 @@
+.card-panel {
+  background-color: #d7ccc8;
+  padding-bottom: 7vh;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: 'Fredoka One';
+  margin-top: 0;
+  color: #4e342e;
+}
+
+.row {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.btn-large {
+  width: 100%;
+  background-color: #3e2723;
+}
+
+.btn-large:hover {
+    background-color: #6d4c41;
+}
