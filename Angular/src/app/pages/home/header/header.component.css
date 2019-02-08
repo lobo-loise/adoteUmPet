@@ -13,22 +13,33 @@
 }
 
 .campo-especial {
-  border-radius: 8px;
+  border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.8);
   border: 2px solid #3e2723;
   height: 10vh;
+  display: flex;
+}
+
+input {
+  border-bottom: 0;
 }
 
 .btn-large {
   height: 10vh;
   margin-right: 0;
-  border-radius: 8px;
+  border-radius: 31px;
   background-color: #3e2723;
+  margin-left: 60px;
+  align-self: flex-end;
 }
 
 .btn-large:hover {
   background-color: #6d4c41;
   border: 2px solid #6d4c41;
+}
+
+button {
+  margin-left: -100px;
 }
 
 @media only screen and (max-width:900px) {

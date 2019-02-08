@@ -15,6 +15,7 @@ import { MainComponent } from './pages/home/main/main.component';
 import { ListaPetsAdocaoComponent } from './pages/home/main/lista-pets-adocao/lista-pets-adocao.component';
 import { BuscaPetsComponent } from './pages/home/main/busca-pets/busca-pets.component';
 import { CardPetComponent } from './pages/home/main/lista-pets-adocao/card-pet/card-pet.component';
+import { SearchComponent } from './pages/home/header/search/search.component';
 
 
 
@@ -28,7 +29,8 @@ import { CardPetComponent } from './pages/home/main/lista-pets-adocao/card-pet/c
     MainComponent,
     ListaPetsAdocaoComponent,
     BuscaPetsComponent,
-    CardPetComponent
+    CardPetComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
